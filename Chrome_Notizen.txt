@@ -1,0 +1,16 @@
+
+
+
+
+./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/GoogleChrome/Policy/GoogleChromeSetting1
+Fügen Sie den Text von chrome.admx in das Feld Wert ein
+
+
+./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartup
+
+<enabled/> <data id="RestoreOnStartup" value="4"/>
+
+
+./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartupURLs
+
+<enabled/> <data id="RestoreOnStartupURLsDesc" value="1&#xF000;https://www.winsolution.ch"/>
