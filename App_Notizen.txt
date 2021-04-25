@@ -1,0 +1,6 @@
+
+
+
+
+
+IntuneWinAppUtil.exe -c C:\Users\tina.jackson\Desktop\Apps\NotepadPP -s C:\Users\tina.jackson\Desktop\Apps\NotepadPP\npp.7.9.5.Installer.exe -o C:\Users\tina.jackson\Desktop\Apps\NotepadPP_Packed -q
