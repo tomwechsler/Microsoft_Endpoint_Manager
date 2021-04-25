@@ -1,6 +1,8 @@
+npp.7.9.5.Installer.exe /S
 
+"C:\Program Files (x86)\Notepad++\notepad++.exe"
 
-
-
+"C:\Program Files (x86)\Notepad++\uninstall.exe" /S
 
 IntuneWinAppUtil.exe -c C:\Users\tina.jackson\Desktop\Apps\NotepadPP -s C:\Users\tina.jackson\Desktop\Apps\NotepadPP\npp.7.9.5.Installer.exe -o C:\Users\tina.jackson\Desktop\Apps\NotepadPP_Packed -q
+
