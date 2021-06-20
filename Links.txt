@@ -26,4 +26,6 @@ https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool
 
 https://chromeenterprise.google/browser/download/
 
+https://support.google.com/chrome/a/answer/187202?hl=de
+
 https://businessstore.microsoft.com/en-us/store
