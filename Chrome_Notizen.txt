@@ -1,5 +1,5 @@
 
-
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager
 
 
 ./Device/Vendor/MSFT/Policy/ConfigOperations/ADMXInstall/GoogleChrome/Policy/GoogleChromeSetting1
