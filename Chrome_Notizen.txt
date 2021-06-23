@@ -6,11 +6,11 @@ Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager
 Fügen Sie den Text von chrome.admx in das Feld Wert ein
 
 
-./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartup
+./Device/Vendor/MSFT/Policy/Config/GoogleChrome~Policy~googlechrome~Startup/RestoreOnStartup
 
 <enabled/> <data id="RestoreOnStartup" value="4"/>
 
 
-./Device/Vendor/MSFT/Policy/Config/Chrome~Policy~googlechrome~Startup/RestoreOnStartupURLs
+./Device/Vendor/MSFT/Policy/Config/GoogleChrome~Policy~googlechrome~Startup/RestoreOnStartupURLs
 
 <enabled/> <data id="RestoreOnStartupURLsDesc" value="1&#xF000;https://www.winsolution.ch"/>
