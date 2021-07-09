@@ -1,0 +1,5 @@
+Syntax:
+(device.devicePhysicalIDs -any (_ -contains "[ZTDId]"))
+
+URL:
+https://docs.microsoft.com/en-us/mem/autopilot/enrollment-autopilot
