@@ -31,3 +31,5 @@ https://support.google.com/chrome/a/answer/187202?hl=de
 https://businessstore.microsoft.com/en-us/store
 
 https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
+
+https://www.dell.com/en-us/work/shop/help-me-choose/cp/hmc-autopilot
