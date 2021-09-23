@@ -4,5 +4,5 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
 Install-Script -Name Get-WindowsAutoPilotInfo
 Get-WindowsAutoPilotInfo.ps1 -OutputFile AutoPilotHWID.csv
 
-net use z: \\172.16.1.10\temp /user:tomsmem\administrator
+net use z: \\192.168.179.10\temp /user:tomsmem\administrator
 copy AutoPilotHWID.csv z:\AutoPilotHWID.csv
