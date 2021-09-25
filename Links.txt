@@ -33,3 +33,7 @@ https://businessstore.microsoft.com/en-us/store
 https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
 
 https://www.dell.com/en-us/work/shop/help-me-choose/cp/hmc-autopilot
+
+https://aka.ms/mdep1trial
+
+https://config.office.com/
