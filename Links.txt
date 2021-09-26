@@ -37,3 +37,5 @@ https://www.dell.com/en-us/work/shop/help-me-choose/cp/hmc-autopilot
 https://aka.ms/mdep1trial
 
 https://config.office.com/
+
+https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview
