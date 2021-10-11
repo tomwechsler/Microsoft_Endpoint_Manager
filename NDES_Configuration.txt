@@ -60,12 +60,8 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure#
     query string (Bytes) = 65534
     Maximum URL length (Bytes) = 65534
 
+7. Add the NDES account in the local security policies under "local policies" at "assign user rights" at "log on as service"!
+	
+8. Restart the server that hosts the NDES service. Don't use iisreset; iireset doesn't complete the required changes.
 
-7. Restart the server that hosts the NDES service. Don't use iisreset; iireset doesn't complete the required changes.
-
-8. https://ndes.tomsmem.local/certsrv/mscep/mscep.dll
-
-
-
-
- 
+9. https://ndes.tomsmem.local/certsrv/mscep/mscep.dll
