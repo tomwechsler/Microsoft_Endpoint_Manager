@@ -1,0 +1,5 @@
+    Name:  SkipUserStatusPage (or whatever you want)
+    Description:  (whatever you want)
+    OMA-URI:  ./Vendor/MSFT/DMClient/Provider/MS DM Server/FirstSyncStatus/SkipUserStatusPage
+    Data type:  Boolean
+    Value:  True
