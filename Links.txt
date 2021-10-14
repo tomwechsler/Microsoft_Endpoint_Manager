@@ -40,3 +40,7 @@ https://aka.ms/mdep1trial
 https://config.office.com/
 
 https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview
+
+https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
+
+https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/active-directory-app-proxy-protect-ndes
