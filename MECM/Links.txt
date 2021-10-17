@@ -1,0 +1,17 @@
+https://docs.microsoft.com/en-us/mem/configmgr/
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/design-a-hierarchy-of-sites
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/recommended-hardware
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/support-for-sql-server-versions
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/site-and-site-system-prerequisites
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/supported-operating-systems-for-site-system-servers
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/servers/deploy/install/prepare-to-install-sites
+
+https://msendpointmgr.com/
+
+https://msendpointmgr.com/configmgr-prerequisites-tool/
