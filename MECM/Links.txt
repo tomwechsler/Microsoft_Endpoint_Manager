@@ -1,5 +1,9 @@
 https://docs.microsoft.com/en-us/mem/configmgr/
 
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/recommended-hardware
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/site-size-performance-guidelines
+
 https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/hierarchy/design-a-hierarchy-of-sites
 
 https://docs.microsoft.com/en-us/mem/configmgr/core/plan-design/configs/recommended-hardware
