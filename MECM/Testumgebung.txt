@@ -1,0 +1,13 @@
+Domäne:		prime.pri
+Subnet:		172.16.0.0/24
+
+GW:		172.16.0.1	ROUTER01 (DHCP-Server)
+
+
+DC01:		172.16.0.10	DC, DNS, ADCS und Azure AD Connect
+
+CM01:		172.16.0.20	MECM und SQL Server
+FS01:		172.16.0.21	Datei-Server
+
+CL01:		DHCP		Windows 10
+CL02:		DHCP		Windows 10
