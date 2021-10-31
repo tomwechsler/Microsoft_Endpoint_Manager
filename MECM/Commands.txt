@@ -3,3 +3,7 @@ w32tm /config /computer:dc01.prime.pri /manualpeerlist:ch.pool.ntp.org /syncfrom
 E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>prereqchk.exe /local
 
 E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe
+
+E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /DP <SERVER FQDN>
+
+E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /MP <SERVER FQDN>
