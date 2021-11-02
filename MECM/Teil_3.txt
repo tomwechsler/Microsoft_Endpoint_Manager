@@ -1,0 +1,5 @@
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/introduction-to-hardware-inventory
+
+https://docs.microsoft.com/en-us/mem/configmgr/develop/adminservice/custom-properties
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/extend-hardware-inventory
