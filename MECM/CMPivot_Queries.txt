@@ -1,0 +1,34 @@
+Service
+
+Service | summarize dcount( Device ) by Name
+
+Service | where (Name == 'Browser') | summarize count() by Device
+
+Bios | summarize countif( (Version == 'LENOVO - 1140') ) by Device | where (countif_ > 0)
+
+Disk | where (Description == 'Local Fixed Disk') | where isnotnull( FreeSpace ) | order by FreeSpace asc
+
+
+CCMRecentlyUsedApplications
+| where (LastUsedTime > ago(2h))
+| project CompanyName, ProductName, ProductVersion, LastUsedTime
+
+
+OperatingSystem
+| where LastBootUpTime <= ago(7d)
+| summarize count() by bin(LastBootUpTime,1d)
+
+
+LogicalDisk
+| project Device, DeviceID, Name, Description, FileSystem, Size, FreeSpace
+| order by DeviceID asc
+
+
+ComputerSystem
+| project Device, Manufacturer, Model
+| join (OperatingSystem | project Device, OSVersion=Caption)
+
+
+SystemBootData
+| project Device, SystemStartTime, BootDuration, OSStart=EventLogStart, GPDuration, UpdateDuration
+| order by SystemStartTime desc
