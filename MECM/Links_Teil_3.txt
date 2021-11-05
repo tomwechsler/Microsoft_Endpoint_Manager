@@ -3,3 +3,7 @@ https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/int
 https://docs.microsoft.com/en-us/mem/configmgr/develop/adminservice/custom-properties
 
 https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/inventory/extend-hardware-inventory
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/servers/manage/cmpivot
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/servers/manage/list-of-reports
