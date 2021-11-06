@@ -1,0 +1,15 @@
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/plan-cloud-management-gateway
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/plan-client-authentication
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/plan-hierarchy-design
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/supported-configurations
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/perf-scale
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/cost
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/set-up-checklist
+
+https://docs.microsoft.com/en-us/mem/configmgr/core/clients/manage/cmg/monitor-clients-cloud-management-gateway
