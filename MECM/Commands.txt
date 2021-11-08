@@ -7,3 +7,5 @@ E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe
 E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /DP <SERVER FQDN>
 
 E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /MP <SERVER FQDN>
+
+nslookup hostname.westeurope.cloudapp.azure.com
