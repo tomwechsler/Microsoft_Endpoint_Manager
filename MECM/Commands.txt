@@ -10,4 +10,4 @@ E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /MP <SERVER 
 
 nslookup hostname.westeurope.cloudapp.azure.com
 
-E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>BulkRegistrationTokenTool.exe /new
+\bin\X64 folder of the Configuration Manager installation directory on the site server => BulkRegistrationTokenTool.exe /new
