@@ -11,3 +11,9 @@ E:\PreReq_Software\MEM_Configmgr_2103\SMSSETUP\BIN\X64>extadsch.exe /MP <SERVER 
 nslookup hostname.westeurope.cloudapp.azure.com
 
 \bin\X64 folder of the Configuration Manager installation directory on the site server => BulkRegistrationTokenTool.exe /new
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\CCM\Security, ClientAlwaysOnInternet = 1
+
+Get-WmiObject -Namespace Root\Ccm\LocationServices -Class SMS_ActiveMPCandidate | Where-Object {$_.Type -eq "Internet"}
+
+ccmsetup.exe /mp:https://CONTOSO.CLOUDAPP.NET/CCM_Proxy_MutualAuth/72186325152220500 CCMHOSTNAME=CONTOSO.CLOUDAPP.NET/CCM_Proxy_MutualAuth/72186325152220500 SMSSITECODE=ABC SMSMP=https://mp1.contoso.com AADTENANTID=daf4a1c2-3a0c-401b-966f-0b855d3abd1a AADCLIENTAPPID=7506ee10-f7ec-415a-b415-cd3d58790d97 AADRESOURCEURI=https://contososerver
