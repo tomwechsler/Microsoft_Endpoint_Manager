@@ -1,0 +1,2 @@
+https://docs.microsoft.com/en-us/mem/configmgr/tenant-attach/
+
