@@ -1,2 +1,12 @@
 https://docs.microsoft.com/en-us/mem/configmgr/tenant-attach/
 
+https://docs.microsoft.com/en-us/mem/intune/enrollment/device-enrollment
+
+https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
+
+https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect
+
+https://docs.microsoft.com/en-us/mem/intune/user-help/what-info-can-your-company-see-when-you-enroll-your-device-in-intune
+
+https://docs.microsoft.com/de-de/mem/intune/enrollment/device-enrollment-manager-enroll
+
