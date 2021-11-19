@@ -1,3 +1,5 @@
+https://docs.microsoft.com/en-us/mem/analytics/overview
+
 https://docs.microsoft.com/en-us/mem/configmgr/tenant-attach/
 
 https://docs.microsoft.com/en-us/mem/intune/enrollment/device-enrollment
