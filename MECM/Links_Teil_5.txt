@@ -12,3 +12,8 @@ https://docs.microsoft.com/en-us/mem/intune/user-help/what-info-can-your-company
 
 https://docs.microsoft.com/de-de/mem/intune/enrollment/device-enrollment-manager-enroll
 
+https://docs.microsoft.com/en-us/windows/client-management/mdm/configuration-service-provider-reference
+
+https://docs.microsoft.com/en-us/mem/intune/protect/certificates-configure
+
+https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
