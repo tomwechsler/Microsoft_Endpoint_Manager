@@ -1,4 +1,4 @@
-﻿#A special thanks to Timmy Andersson for the PowerShell support!
+#A special thanks to Timmy Andersson for the PowerShell script!
 
 Set-Location C:\
 Clear-Host
