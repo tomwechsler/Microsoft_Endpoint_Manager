@@ -19,7 +19,7 @@ $Group = Get-AADGroup -Filter "displayname eq '$GroupName'"
  
 ####Config Don't change
  
-Write-host "AAD Group Name: $($Group.displayName)" -ForegroundColor Green
+Write-host "Azure Active Directory Group Name: $($Group.displayName)" -ForegroundColor Green
  
 #Apps
 $AllAssignedApps = Get-IntuneMobileApp -Filter "isAssigned eq true" -Select id, displayName, lastModifiedDateTime, assignments -Expand assignments | Where-Object {$_.assignments -match $Group.id}
@@ -85,7 +85,7 @@ $Groups = Get-AADGroup | Get-MSGraphAllPages
  
 ####Config 
 Foreach ($Group in $Groups) {
-Write-host "AAD Group Name: $($Group.displayName)" -ForegroundColor Green
+Write-host "Azure Active Directory Group Name: $($Group.displayName)" -ForegroundColor Green
  
 #Apps
 $AllAssignedApps = Get-IntuneMobileApp -Filter "isAssigned eq true" -Select id, displayName, lastModifiedDateTime, assignments -Expand assignments | Where-Object {$_.assignments -match $Group.id}
