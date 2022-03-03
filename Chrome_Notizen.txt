@@ -14,3 +14,6 @@ Fügen Sie den Text von chrome.admx in das Feld Wert ein
 ./Device/Vendor/MSFT/Policy/Config/GoogleChrome~Policy~googlechrome~Startup/RestoreOnStartupURLs
 
 <enabled/> <data id="RestoreOnStartupURLsDesc" value="1&#xF000;https://www.winsolution.ch"/>
+
+Prüfen der Einstellungen unter:
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device
