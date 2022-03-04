@@ -1,4 +1,4 @@
-https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure#set-up-ndes
+https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 1. Register certificate (the NDES certificate) In the Personal Store
 
