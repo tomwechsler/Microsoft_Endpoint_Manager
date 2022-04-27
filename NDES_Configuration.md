@@ -30,7 +30,7 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 4. Create the SPN in a command prompt with elevated privileges: setspn –s http/ndes.tomsmem.local tomsmem\ndes
 
-5. Configure the NDES service
+5. Configure the NDES service:
 
     In Role Services, select the Network Device Enrollment Service.  
     In Service Account for NDES, specify the NDES Service Account.  
@@ -46,12 +46,12 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 	Encryption 					CorpIntuneBenutzer  
 	Signature and encryption 	                CorpIntuneBenutzer  
 
-7. Install and bind certificates on the server that hosts NDES
+7. Install and bind certificates on the server that hosts NDES:
 
-    After installing the server authentication certificate, open IIS Manager, and select the Default Web Site. 
-    In the Actions pane, select Bindings.
-    Select Add, set Type to https, and then confirm the port is 443.
-    For SSL certificate, specify the server authentication certificate.
+    After installing the server authentication certificate, open IIS Manager, and select the Default Web Site.  
+    In the Actions pane, select Bindings.  
+    Select Add, set Type to https, and then confirm the port is 443.  
+    For SSL certificate, specify the server authentication certificate.  
 
     On the NDES Server open IIS Manager, select the Default Web Site in the Connections pane, and then open Request Filtering.
 	
