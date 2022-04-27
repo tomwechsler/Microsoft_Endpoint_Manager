@@ -63,5 +63,5 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 	
 9. Restart the server that hosts the NDES service. Don't use iisreset; iireset doesn't complete the required changes.
 
-10. For example, go to the following URL on your DC, you should see the NDES default page.
+10. For example, go to the following URL on your DC, you should see the NDES default page.  
     https://ndes.tomsmem.local/certsrv/mscep/mscep.dll
