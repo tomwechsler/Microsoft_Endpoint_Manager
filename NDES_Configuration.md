@@ -32,11 +32,11 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 5. Configure the NDES service
 
-    In Role Services, select the Network Device Enrollment Service.
-    In Service Account for NDES, specify the NDES Service Account.
-    In CA for NDES, click Select, and then select the issuing CA where you configured the certificate template.
-    In Cryptography for NDES, set the key length to meet your company requirements.
-    In Confirmation, select Configure to complete the wizard.
+    In Role Services, select the Network Device Enrollment Service.  
+    In Service Account for NDES, specify the NDES Service Account.  
+    In CA for NDES, click Select, and then select the issuing CA where you configured the certificate template.  
+    In Cryptography for NDES, set the key length to meet your company requirements.  
+    In Confirmation, select Configure to complete the wizard.  
 
 6. After the wizard completes, update the following registry key on the computer that hosts the NDES service:
 
