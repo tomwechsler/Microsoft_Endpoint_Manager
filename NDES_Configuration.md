@@ -28,7 +28,7 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 	
 3. On the server, add the NDES service account as a member of the local IIS_IUSR group.
 
-4. setspn –s http/ndes.tomsmem.local tomsmem\ndes
+4. Create the SPN in a command prompt with elevated privileges: setspn –s http/ndes.tomsmem.local tomsmem\ndes
 
 5. Configure the NDES service
 
