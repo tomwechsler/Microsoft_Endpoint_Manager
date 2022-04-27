@@ -42,9 +42,9 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\
 
-	Signature 					CorpIntuneBenutzer 	
-	Encryption 					CorpIntuneBenutzer 	
-	Signature and encryption 	                CorpIntuneBenutzer
+	Signature 					CorpIntuneBenutzer  
+	Encryption 					CorpIntuneBenutzer  
+	Signature and encryption 	                CorpIntuneBenutzer  
 
 7. Install and bind certificates on the server that hosts NDES
 
