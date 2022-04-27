@@ -53,11 +53,11 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
     Select Add, set Type to https, and then confirm the port is 443.  
     For SSL certificate, specify the server authentication certificate.  
 
-    On the NDES Server open IIS Manager, select the Default Web Site in the Connections pane, and then open Request Filtering.
+    On the NDES Server open IIS Manager, select the Default Web Site in the Connections pane, and then open Request Filtering.  
 	
-    Click Edit Feature Settings, and then set the following:
-    query string (Bytes) = 65534
-    Maximum URL length (Bytes) = 65534
+    Click Edit Feature Settings, and then set the following:  
+    query string (Bytes) = 65534  
+    Maximum URL length (Bytes) = 65534  
 
 8. Add the NDES account in the local security policies under "local policies" at "assign user rights" at "log on as service"!
 	
