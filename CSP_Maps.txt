@@ -1,1 +1,8 @@
+Policy CSP
+----------
+
+Link:
+https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider
+
+Install a map
 ./Vendor/MSFT/Maps/Packages/bab02b93-31c4-413a-b0fe-95a43e186d8c
