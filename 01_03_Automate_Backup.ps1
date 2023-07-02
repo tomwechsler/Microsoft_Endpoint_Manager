@@ -1,4 +1,6 @@
-﻿$credential = Get-Credential
+#Thank your very much to John Seerden! @jseerden
+
+$credential = Get-Credential
 $credential.Password | ConvertFrom-SecureString | Set-Content c:\encrypted_password.txt
 
 #Put this part of the content in to a script
