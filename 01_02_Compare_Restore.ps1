@@ -1,4 +1,6 @@
-﻿Set-Location c:\
+#Thank your very much to John Seerden! @jseerden
+ 
+Set-Location c:\
 Clear-Host
 
 #Customize the ExecutionPolicy (absolutely OK for this demo)
