@@ -309,7 +309,7 @@ https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-monito
 Review client app protection logs  
 https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-log
 
-## Security Management and Threat Mitigation
+## Security Management and Threat Mitigation (More links to come on this topic.)
 
 Manage endpoint security in Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security
@@ -320,7 +320,7 @@ https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-manage-de
 Use security baselines to configure Windows devices in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines
 
-## Intune and other Microsoft security tools
+## Intune and other Microsoft security tools (More links to come on this topic.)
 
 Enforce compliance for Microsoft Defender for Endpoint with Conditional Access in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection
@@ -357,7 +357,28 @@ https://learn.microsoft.com/en-us/mem/intune/configuration/device-profile-monito
 Endpoint analytics documentation  
 https://learn.microsoft.com/en-us/mem/analytics/
 
-## Intune Troubleshooting 
+## Intune Troubleshooting
+
+Use the troubleshooting dashboard to help users at your company  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/help-desk-operators
+
+Troubleshooting Intune app installation issues  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-management/troubleshoot-app-install
+
+Troubleshooting Win32 app installations with Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-management/troubleshoot-win32-app-install
+
+App installation failed error after an Android APK app is updated  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-management/app-installation-failed-error
+
+Troubleshooting app protection policy user issues  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-protection-policies/troubleshoot-mam
+
+Review client app protection logs  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-log
+
+Troubleshooting app protection policy deployment in Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-protection-policies/troubleshoot-app-protection-policy-deployment
 
 ## Miscellaneous
 
