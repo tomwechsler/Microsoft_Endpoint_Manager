@@ -146,25 +146,80 @@ https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-view-correct
 Data security and sharing in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-secure-share
 
+## Device and application compatibility
 
+Supported operating systems and browsers in Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/supported-devices-browsers
 
+Software updates admin checklist for BYOD and personal devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-guide-personal-byod
 
+Software updates admin checklist for managed Android Enterprise devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-guide-android
 
+Software updates admin checklist and scenarios for supervised iOS/iPadOS devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-guide-ios-ipados
 
+Using Azure Virtual Desktop with Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/azure-virtual-desktop
 
+## Application Deployment
 
+Add apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-add
 
+Microsoft Intune protected apps  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-supported-intune-apps
 
+Add Android store apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/store-apps-android
 
+Add iOS store apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/store-apps-ios
 
+Add Microsoft Store apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/store-apps-microsoft
 
-## Delivery Optimization
+Add Managed Google Play apps to Android Enterprise devices with Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work
+
+Manage Android Enterprise system apps in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-ae-system
+
+Add web apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/web-app
+
+Add built-in apps to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-built-in
+
+Win32 app management in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-app-management
+
+Prepare Win32 app content for upload  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-prepare
+
+Add, assign, and monitor a Win32 app in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add
+
+Add Win32 app supersedence  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-supersedence
+
+Troubleshoot Win32 app issues  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-troubleshoot
+
+Deploy Windows update packages in Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-deploy-update-package
+
+### Delivery Optimization
 
 Delivery Optimization settings for Windows devices in Intune  
 https://learn.microsoft.com/en-us/mem/intune/configuration/delivery-optimization-settings
 
 Delivery Optimization settings in Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/configuration/delivery-optimization-windows
+
+Delivery Optimization Recommendations for Microsoft Intune by Johan Arwidmark (Thank you to @jarwidmark)  
+https://2pintsoftware.com/News/Details/delivery-optimization-recommendations-for-microsoft-intune
 
 Configuring Microsoft Intune devices for Windows Update for Business reports  
 https://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-configuration-intune
