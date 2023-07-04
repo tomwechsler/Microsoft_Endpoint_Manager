@@ -270,13 +270,94 @@ https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-wi
 
 ## Protecting Sensitive Data with Intune
 
+Protect data and devices with Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/device-protect
+
+Use compliance policies to set rules for devices you manage with Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started
+
+Data protection framework using app protection policies  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-framework
+
+How to create and assign app protection policies  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies
+
+Android app protection policy settings in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-android
+
+iOS app protection policy settings  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-ios
+
+Preview: App protection policy settings for Windows  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-windows
+
+Selectively wipe data using app protection policy conditional launch actions in Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-access-actions
+
+How to create exceptions to the Intune App Protection Policy (APP) data transfer policy  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-exception
+
+How to validate your app protection policy setup in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-validate
+
+Understand App Protection Policy delivery timing  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-delivery
+
+How to monitor app protection policies  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-monitor
+
+Review client app protection logs  
+https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-log
+
 ## Security Management and Threat Mitigation
+
+Manage endpoint security in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security
+
+Manage devices with endpoint security in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-manage-devices
+
+Use security baselines to configure Windows devices in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines
 
 ## Intune and other Microsoft security tools
 
+Enforce compliance for Microsoft Defender for Endpoint with Conditional Access in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection
+
+Configure Microsoft Defender for Endpoint in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure
+
+Manage Microsoft Defender for Endpoint on devices with Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration
+
 ## Intune reporting and monitoring
 
-## Troubleshooting Intune
+Intune reports  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/reports
+
+Export Intune reports using Graph APIs  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/reports-export-graph-apis
+
+Intune reports and properties available using Graph API  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/reports-export-graph-available-reports
+
+Use the Microsoft Intune Data Warehouse  
+https://learn.microsoft.com/en-us/mem/intune/developer/reports-nav-create-intune-reports
+
+Use audit logs to track and monitor events in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/monitor-audit-logs
+
+Send log data to storage, event hubs, or log analytics in Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/review-logs-using-azure-monitor
+
+Monitor device configuration profiles in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/configuration/device-profile-monitor
+
+Endpoint analytics documentation  
+https://learn.microsoft.com/en-us/mem/analytics/
+
+## Intune Troubleshooting 
 
 ## Miscellaneous
 
