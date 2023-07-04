@@ -224,10 +224,59 @@ https://2pintsoftware.com/News/Details/delivery-optimization-recommendations-for
 Configuring Microsoft Intune devices for Windows Update for Business reports  
 https://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-configuration-intune
 
+## Policy Management and Compliance
 
+Use compliance policies to set rules for devices you manage with Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-get-started
 
+Create a compliance policy in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/create-compliance-policy
 
+Use custom compliance policies and settings for Linux and Windows devices with Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-use-custom-settings
 
+Custom compliance JSON files for Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-custom-json
+
+Custom compliance discovery scripts for Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-custom-script
+
+Configure actions for noncompliant devices in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/actions-for-noncompliance
+
+Monitor results of your Intune Device compliance policies  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-monitor
+
+Support third-party device compliance partners in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/device-compliance-partners
+
+Device Compliance settings for Android device administrator in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-android
+
+Device compliance settings for Android Enterprise in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-android-for-work
+
+Device Compliance settings for iOS/iPadOS in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-ios
+
+Device compliance settings for Linux in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-linux
+
+Device Compliance settings for macOS settings in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-mac-os
+
+Device Compliance settings for Windows 10/11 in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/compliance-policy-create-windows
+
+## Protecting Sensitive Data with Intune
+
+## Security Management and Threat Mitigation
+
+## Intune and other Microsoft security tools
+
+## Intune reporting and monitoring
+
+## Troubleshooting Intune
 
 ## Miscellaneous
 
