@@ -1,4 +1,4 @@
-# Links to articles from Microsoft
+# Links to articles from Microsoft and great people in the community!
 
 ## Introduction to Microsoft Intune
 
