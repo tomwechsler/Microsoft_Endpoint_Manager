@@ -12,8 +12,34 @@ https://learn.microsoft.com/en-us/mem/intune/fundamentals/high-level-architectur
 
 ### Set up Microsoft Intune
 
-Set up Microsoft Intune  
+Sign up or sign in to Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/account-sign-up
+
+Configure a custom domain name  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/custom-domain-name-configure  
+
+Add users and grant administrative permission to Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/users-add  
+
+Add groups to organize users and devices  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/groups-add  
+
+Set up Microsoft Intune (Step by Step)  
 https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-plan-setup
+
+Set the mobile device management authority  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/mdm-authority-set  
+
+### Role-based access control (RBAC)
+
+Role-based access control (RBAC) with Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/role-based-access-control
+
+Assign a role to an Intune user  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/assign-role  
+
+Use role-based access control (RBAC) and scope tags for distributed IT  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/scope-tags
 
 ## Licensing
 
@@ -28,15 +54,39 @@ https://learn.microsoft.com/en-us/mem/intune/fundamentals/unlicensed-admins
 
 ## Device enrollment and registration
 
+Enrollment guide: Microsoft Intune enrollment  
 https://docs.microsoft.com/de-de/mem/intune/fundamentals/deployment-guide-enrollment
 
+What are enrollment restrictions?  
+https://learn.microsoft.com/en-us/mem/intune/enrollment/enrollment-restrictions-set  
+
+Enrollment guide: Enroll Windows client devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment-windows
+
+Enrollment guide: Enroll Android devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment-android  
+
+Enrollment guide: Enroll iOS and iPadOS devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment-ios-ipados
+
+Enrollment guide: Enroll Linux desktop devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment-linux
+
+Enrollment guide: Enroll macOS devices in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/deployment-guide-enrollment-macos
+
+Incomplete user enrollments report  
+https://learn.microsoft.com/en-us/mem/intune/enrollment/enrollment-report-company-portal-abandon  
+
+### Windows Autopilot
+
+Windows Autopilot: What's new  
+https://learn.microsoft.com/en-us/mem/autopilot/windows-autopilot-whats-new  
 
 
-https://docs.microsoft.com/de-de/mem/intune/fundamentals/licenses
 
-https://docs.microsoft.com/de-de/mem/intune/fundamentals/mdm-authority-set
 
-https://docs.microsoft.com/de-de/mem/intune/enrollment/device-enrollment
+
 
 https://docs.microsoft.com/en-us/mem/autopilot/enrollment-autopilot
 
