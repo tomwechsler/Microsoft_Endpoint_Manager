@@ -52,6 +52,9 @@ https://learn.microsoft.com/en-us/mem/intune/fundamentals/licenses-assign
 Unlicensed admins  
 https://learn.microsoft.com/en-us/mem/intune/fundamentals/unlicensed-admins  
 
+Microsoft 365 Licensing by Aaron Dinnage (Thank you very much @AaronDinnage)  
+https://m365maps.com/
+
 ## Device enrollment and registration
 
 Enrollment guide: Microsoft Intune enrollment  
@@ -83,50 +86,77 @@ https://learn.microsoft.com/en-us/mem/intune/enrollment/enrollment-report-compan
 Windows Autopilot: What's new  
 https://learn.microsoft.com/en-us/mem/autopilot/windows-autopilot-whats-new  
 
+Overview of Windows Autopilot  
+https://learn.microsoft.com/en-us/mem/autopilot/windows-autopilot  
+
+Windows Autopilot registration overview  
+https://learn.microsoft.com/en-us/mem/autopilot/registration-overview
+
+Windows Autopilot scenarios and capabilities  
+https://learn.microsoft.com/en-us/mem/autopilot/windows-autopilot-scenarios  
+
+Windows Autopilot Enrollment Status Page  
+https://learn.microsoft.com/en-us/mem/autopilot/enrollment-status  
+
+Windows Autopilot user-driven mode  
+https://learn.microsoft.com/en-us/mem/autopilot/user-driven
+
+Windows Autopilot self-deploying mode (Public Preview)  
+https://learn.microsoft.com/en-us/mem/autopilot/self-deploying
+
+Windows Autopilot Reset  
+https://learn.microsoft.com/en-us/mem/autopilot/windows-autopilot-reset
+
+Windows Autopilot for pre-provisioned deployment (Public preview)  
+https://learn.microsoft.com/en-us/mem/autopilot/pre-provision  
+
+Windows Autopilot deployment for existing devices  
+https://learn.microsoft.com/en-us/mem/autopilot/existing-devices  
+
+Windows Autopilot software requirements  
+https://learn.microsoft.com/en-us/mem/autopilot/software-requirements
+
+Windows Autopilot networking requirements  
+https://learn.microsoft.com/en-us/mem/autopilot/networking-requirements
+
+Windows Autopilot licensing requirements  
+https://learn.microsoft.com/en-us/mem/autopilot/licensing-requirements
+
+Windows Autopilot configuration requirements  
+https://learn.microsoft.com/en-us/mem/autopilot/configuration-requirements
+
+
+## Privacy and personal data in Intune
+
+Privacy and personal data in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
+
+Optional diagnostic data from Intune Client apps  
+https://learn.microsoft.com/en-us/mem/intune/protect/client-apps-optional-data
+
+Data collection in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-collect
+
+Data storage and processing in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-store-process
+
+View and correct personal data  
+https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-view-correct
+
+Data security and sharing in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/privacy-data-secure-share
 
 
 
 
 
-https://docs.microsoft.com/en-us/mem/autopilot/enrollment-autopilot
 
-https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
 
-https://docs.microsoft.com/en-us/windows/client-management/mdm/configuration-service-provider-reference
 
-https://docs.microsoft.com/de-de/mem/intune/configuration/custom-settings-windows-10
 
-https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
 
-https://docs.microsoft.com/en-us/windows/configuration/provisioning-packages/how-it-pros-can-use-configuration-service-providers
 
-https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-configuration-service-provider
 
-https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool
-
-https://chromeenterprise.google/browser/download/
-
-https://support.google.com/chrome/a/answer/187202?hl=de
-
-https://businessstore.microsoft.com/en-us/store
-
-https://docs.microsoft.com/en-us/mem/intune/protect/privacy-personal-data
-
-https://www.dell.com/en-us/work/shop/help-me-choose/cp/hmc-autopilot
-
-https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview
-
-https://aka.ms/mdep1trial
-
-https://config.office.com/
-
-https://docs.microsoft.com/en-us/windows/deployment/update/waas-overview
-
-https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
-
-https://docs.microsoft.com/en-us/azure/active-directory/app-proxy/active-directory-app-proxy-protect-ndes
-
-https://psappdeploytoolkit.com/
 
 ## Delivery Optimization
 
@@ -138,3 +168,16 @@ https://learn.microsoft.com/en-us/mem/intune/configuration/delivery-optimization
 
 Configuring Microsoft Intune devices for Windows Update for Business reports  
 https://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-configuration-intune
+
+
+
+
+
+
+## Miscellaneous
+
+https://config.office.com/
+
+https://psappdeploytoolkit.com/
+
+https://github.com/Microsoft/Microsoft-Win32-Content-Prep-Tool
