@@ -309,7 +309,7 @@ https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policies-monito
 Review client app protection logs  
 https://learn.microsoft.com/en-us/mem/intune/apps/app-protection-policy-settings-log
 
-## Security Management and Threat Mitigation (More links to come on this topic.)
+## Security Management and Threat Mitigation
 
 Manage endpoint security in Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security
@@ -358,6 +358,44 @@ https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-
 Manage Microsoft Defender for Endpoint on devices with Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration
 
+## Operating system update
+
+Manage operating system versions with Intune  
+https://learn.microsoft.com/en-us/mem/intune/fundamentals/manage-os-versions
+
+What is Windows Update for Business?  
+https://learn.microsoft.com/en-us/windows/deployment/update/waas-manage-updates-wufb
+
+Update Baseline  
+https://learn.microsoft.com/en-us/windows/deployment/update/update-baseline
+
+Manage Windows 10 and Windows 11 software updates in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-update-for-business-configure#windows-10-feature-updates
+
+Update rings for Windows 10 and later policy in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-10-update-rings
+
+Feature updates for Windows 10 and later policy in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-10-feature-updates
+
+Expedite Windows quality updates in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-10-expedite-updates
+
+Windows Driver update management in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-driver-updates-overview
+
+Manage iOS/iPadOS software update policies in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-ios
+
+Manage macOS software update policies in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-macos
+
+Android FOTA Updates  
+https://learn.microsoft.com/en-us/mem/intune/protect/fota-updates-android
+
+Zebra LifeGuard Over-the-Air Integration with Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/zebra-lifeguard-ota-integration
+
 ## Intune reporting and monitoring
 
 Intune reports  
@@ -384,10 +422,34 @@ https://learn.microsoft.com/en-us/mem/intune/configuration/device-profile-monito
 Endpoint analytics documentation  
 https://learn.microsoft.com/en-us/mem/analytics/
 
+Windows Update reports for Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-update-reports
+
+App and driver compatibility reports for Windows updates  
+https://learn.microsoft.com/en-us/mem/intune/protect/windows-update-compatibility-reports
+
+Windows Update for Business reports workbook  
+https://learn.microsoft.com/en-us/windows/deployment/update/wufb-reports-workbook
+
 ## Intune Troubleshooting
 
 Use the troubleshooting dashboard to help users at your company  
 https://learn.microsoft.com/en-us/mem/intune/fundamentals/help-desk-operators
+
+Troubleshooting policies and profiles in Microsoft Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/troubleshoot-policies-in-microsoft-intune
+
+Troubleshooting common issues with email profiles in Microsoft Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/troubleshoot-email-profiles-in-microsoft-intune
+
+Troubleshooting VPN profile issues in Microsoft Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/troubleshoot-vpn-profiles?tabs=android
+
+Troubleshooting Wi-Fi device configuration profiles in Microsoft Intune  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/troubleshoot-wi-fi-profiles
+
+Device password expiration setting doesn't work as expected  
+https://learn.microsoft.com/en-us/troubleshoot/mem/intune/device-configuration/password-expiration-setting-not-working
 
 Troubleshooting Intune app installation issues  
 https://learn.microsoft.com/en-us/troubleshoot/mem/intune/app-management/troubleshoot-app-install
