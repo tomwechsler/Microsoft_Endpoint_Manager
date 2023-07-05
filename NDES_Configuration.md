@@ -23,7 +23,18 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
   You can use the Azure AD Application Proxy instead of a dedicated Web Application Proxy (WAP) Server to publish your NDES URL to the internet. This solution allows both intranet and internet facing devices to get certificates.
 
 **Create the SCEP certificate template**  
+
 - [Create the SCEP certificate template](https://learn.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure#certificates-and-templates)
+
+**Azure AD Application Proxy**  
+
+- [Plan an Azure AD Application Proxy deployment](https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-deployment-plan)
+
+- [Remote access to on-premises applications](https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy)
+
+- [How to configure single sign-on to an Application Proxy application](https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-config-sso-how-to)
+
+- [Understand Azure AD Application Proxy connectors](https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/application-proxy-connectors)
 
 ### Summarized steps
 
