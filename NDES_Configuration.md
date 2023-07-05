@@ -5,13 +5,13 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 **Servers and server roles**
 
-- Certificate Connector for Microsoft Intune
+- Certificate Connector for Microsoft Intune  
   The Certificate Connector for Microsoft Intune is required to use SCEP certificate profiles with Intune when you use a Microsoft CA. It installs on the server that also runs the NDES server role. However, the connector isn't supported on the same server as your issuing Certification Authority (CA).
 
-- Certification Authority
+- Certification Authority  
   Use a Microsoft Active Directory Certificate Services Enterprise Certification Authority (CA) that runs on an Enterprise edition of Windows Server 2008 R2 with service pack 1, or later.
 
-- NDES server role
+- NDES server role  
   To support using the Certificate Connector for Microsoft Intune with SCEP, you must configure the Windows Server that hosts the certificate connector with the Network Device Enrollment Service (NDES) server role.
 
 **Support for NDES on the internet**
