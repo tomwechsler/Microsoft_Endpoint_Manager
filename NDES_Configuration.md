@@ -1,4 +1,17 @@
+Configure infrastructure to support SCEP with Intune  
 https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
+
+### Prerequisites for using SCEP for certificates
+
+**Servers and server roles**
+
+- Certificate Connector for Microsoft Intune
+- Certification Authority
+- NDES server role
+
+**Support for NDES on the internet**
+
+- Azure AD Application Proxy (or Web Application Proxy Server)
 
 1. Register certificate (the NDES certificate) in the Personal Store
 
@@ -61,7 +74,7 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 8. Add the NDES account in the local security policies under "local policies" at "assign user rights" at "log on as service"!
 	
-9. Restart the server that hosts the NDES service. Don't use iisreset; iireset doesn't complete the required changes.
+9. Restart the server that hosts the NDES service. Don't use iisreset; iisreset doesn't complete the required changes.
 
 10. For example, go to the following URL on your DC, you should see the NDES default page.  
     https://ndes.tomsmem.local/certsrv/mscep/mscep.dll
