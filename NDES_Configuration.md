@@ -13,6 +13,8 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 
 - Azure AD Application Proxy (or Web Application Proxy Server)
 
+### Summarized steps
+
 1. Register certificate (the NDES certificate) in the Personal Store
 
 2. Install the NDES service
