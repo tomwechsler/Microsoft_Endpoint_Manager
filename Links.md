@@ -320,6 +320,33 @@ https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-manage-de
 Use security baselines to configure Windows devices in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines
 
+Manage device security with endpoint security policies in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-policy
+
+Use reusable groups of settings with Intune policies  
+https://learn.microsoft.com/en-us/mem/intune/protect/reusable-settings-groups
+
+Account protection policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-account-protection-policy
+
+Antivirus policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-antivirus-policy
+
+Manage approved apps for Windows devices with Application Control policy and Managed Installers for Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-app-control-policy
+
+Attack surface reduction policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-asr-policy
+
+Disk encryption policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-disk-encryption-policy
+
+Endpoint detection and response policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-edr-policy
+
+Firewall policy for endpoint security in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-firewall-policy
+
 ## Intune and other Microsoft security tools (More links to come on this topic.)
 
 Enforce compliance for Microsoft Defender for Endpoint with Conditional Access in Intune  
