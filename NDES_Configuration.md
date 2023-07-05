@@ -14,6 +14,9 @@ https://docs.microsoft.com/en-us/mem/intune/protect/certificates-scep-configure
 - NDES server role  
   To support using the Certificate Connector for Microsoft Intune with SCEP, you must configure the Windows Server that hosts the certificate connector with the Network Device Enrollment Service (NDES) server role.
 
+**Accounts**  
+- To configure the connector to support SCEP, use an account that has permissions to configure NDES on the Windows Server and to manage your Certification Authority.
+
 **Support for NDES on the internet**
 
 - Azure AD Application Proxy (or Web Application Proxy Server)  
