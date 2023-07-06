@@ -349,6 +349,12 @@ https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-firewall-
 
 ## Intune and other Microsoft security tools (More links to come on this topic.)
 
+Manage endpoint security in Microsoft Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security
+
+Use security baselines to configure Windows devices in Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/security-baselines
+
 Enforce compliance for Microsoft Defender for Endpoint with Conditional Access in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection
 
@@ -357,6 +363,15 @@ https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-
 
 Manage Microsoft Defender for Endpoint on devices with Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration
+
+Configure Microsoft Defender for Endpoint on Android devices managed by Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-manage-android
+
+Monitor device status when you integrate Microsoft Defender for Endpoint with Intune  
+https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-monitor
+
+Microsoft Defender for Cloud Apps overview  
+https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
 
 ## Operating system update
 
