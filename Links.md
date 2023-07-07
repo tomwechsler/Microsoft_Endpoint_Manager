@@ -347,7 +347,7 @@ https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-edr-polic
 Firewall policy for endpoint security in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security-firewall-policy
 
-## Intune and other Microsoft security tools (More links to come on this topic.)
+## Intune and other Microsoft security tools
 
 Manage endpoint security in Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/endpoint-security
@@ -372,6 +372,12 @@ https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-
 
 Microsoft Defender for Cloud Apps overview  
 https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps
+
+Deploy Microsoft Defender for Endpoint on macOS with Microsoft Intune  
+https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mac-install-with-intune
+
+Deploy Microsoft Defender for Endpoint on Android with Microsoft Intune  
+https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/android-intune
 
 ## Operating system update
 
