@@ -70,4 +70,18 @@ IntuneOperationalLogs
 ```
 <img src="/Images/Example_3.png" alt="Example 3">
 
-4. 
+4. Devices and timestamp the last time they successfully connected to Intune.
+
+```
+// Devices and timestamp the last time they successfully connected to Intune.
+IntuneDeviceComplianceOrg
+| where todatetime(LastContact) > ago(30d)
+| extend Date=format_datetime(todatetime(LastContact), "dd.MM.yyyy")
+| extend Time=format_datetime(todatetime(LastContact), "hh:mm tt")
+| extend ['Last successful connection']=strcat(Date," ",Time)
+| sort by Date
+| project DeviceName, ['Last successful connection']
+| project-rename ['Device name'] = DeviceName
+```
+
+<img src="/Images/Example_4.png" alt="Example 4">
