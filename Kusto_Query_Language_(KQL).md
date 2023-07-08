@@ -33,3 +33,23 @@ IntuneDevices
 | where PrimaryUser !startswith "000000"
 | project DeviceName, UserName
 ```
+<img src="/Images/Example_1.png" alt="Example 1">
+
+If you remove the comment (//), you will search only for Windows devices.
+
+2. Visualize device compliance
+
+```
+// Visualize device compliance
+IntuneDevices
+| where TimeGenerated > ago (30d)
+| summarize arg_max(DeviceName, *) by DeviceName
+| where isnotempty(CompliantState)
+| summarize ComplianceCount=count()by CompliantState
+| render piechart      
+    with (title="Device compliance")
+```
+
+<img src="/Images/Example_2.png" alt="Example 2">
+
+3. 
