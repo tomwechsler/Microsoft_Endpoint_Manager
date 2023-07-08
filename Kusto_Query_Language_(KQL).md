@@ -52,4 +52,22 @@ IntuneDevices
 
 <img src="/Images/Example_2.png" alt="Example 2">
 
-3. 
+3. Autopilot process
+
+```
+// Show how long the Autopilot process took in seconds and minutes.
+IntuneOperationalLogs
+| where TimeGenerated > ago(30d)
+| extend DeviceId = tostring(todynamic(Properties).DeviceId)
+| extend Time_Seconds = todynamic(Properties).TimeDiff
+| extend Autopilot = todynamic(Properties).IsAutopilot
+| extend Status = todynamic(Properties).Status
+| extend Time_Minutes = Time_Seconds/60
+| where Status == "Completed"
+| where isnotempty(Autopilot)
+| join kind=leftouter IntuneDevices on DeviceId 
+| project ['Is Autopilot?'] = Autopilot, Status, DeviceName, Time_Minutes, Time_Seconds
+```
+<img src="/Images/Example_3.png" alt="Example 3">
+
+4. 
