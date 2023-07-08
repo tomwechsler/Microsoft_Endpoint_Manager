@@ -85,3 +85,19 @@ IntuneDeviceComplianceOrg
 ```
 
 <img src="/Images/Example_4.png" alt="Example 4">
+
+5. Percentage of free storage on devices
+
+```
+// Percentage of free storage on devices
+IntuneDevices
+| where OS == "Windows"
+| where StorageFree != "0" and StorageTotal != "0"
+| where DeviceName != "User deleted for this device" and DeviceName != ""
+| extend ['Free Storage'] = StorageFree
+| extend ['Total Storage'] = StorageTotal
+| extend Percentage = round(todouble(StorageFree) * 100 / todouble(StorageTotal), 2)
+| distinct DeviceName, ['Free Storage'], ['Total Storage'], Percentage, UserName
+| sort by Percentage asc
+```
+<img src="/Images/Example_5.png" alt="Example 5">
