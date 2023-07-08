@@ -101,3 +101,5 @@ IntuneDevices
 | sort by Percentage asc
 ```
 <img src="/Images/Example_5.png" alt="Example 5">
+
+> Note: Thanks to @ugurkocde for the KQL foundation! 
