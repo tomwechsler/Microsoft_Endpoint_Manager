@@ -6,7 +6,7 @@ Before we can examine the logs, we need a central repository where the logs can 
 
 <img src="/Images/LAW.png" alt="Log Analytics Workspace">
 
-If you don't have one yet, here's how to create a Log Analytics workspace.
+**If you don't have one yet, here's how to create a Log Analytics workspace.**  
 
 - [Create a Log Analytics workspace](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/quick-create-workspace)
 
