@@ -405,6 +405,9 @@ https://learn.microsoft.com/en-us/mem/intune/protect/windows-10-expedite-updates
 Windows Driver update management in Microsoft Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/windows-driver-updates-overview
 
+Safeguard holds  
+https://learn.microsoft.com/en-us/windows/deployment/update/safeguard-holds
+
 Manage iOS/iPadOS software update policies in Intune  
 https://learn.microsoft.com/en-us/mem/intune/protect/software-updates-ios
 
