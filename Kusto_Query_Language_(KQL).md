@@ -102,4 +102,23 @@ IntuneDevices
 ```
 <img src="/Images/Example_5.png" alt="Example 5">
 
+6. Devices, with Device Name, Result and OS that have been enrolled to Intune
+
+```
+// A list of Devices, with Device Name, Result and OS that have been enrolled to Intune.
+IntuneOperationalLogs 
+| where TimeGenerated > ago(7d) // Change the value in () as you desire e.g. 12h, 10d, 30d. d = day, h = hour.
+| extend DeviceId = tostring(todynamic(Properties).IntuneDeviceId)
+| extend OS = tostring(todynamic(Properties).Os)
+| where Result == "Success"
+| where OperationName has "Enrollment"
+//| where OS == "Windows" // You can filter by OS Platform e.g. iOS, Android, Windows. Just replace the vaule between the " " and delete the // infront of |.
+| join kind=leftouter IntuneDevices on DeviceId // DeviceName from IntuneDevices. Can be delayed.
+| project TimeGenerated, DeviceName, Result, OperationName, OS
+| summarize TimeGenerated = max(TimeGenerated) by DeviceName, Result, OperationName, OS
+| sort by TimeGenerated desc
+```
+
+<img src="/Images/Example_6.png" alt="Example 6">
+
 > Note: Thanks to @ugurkocde for the KQL foundation! 
