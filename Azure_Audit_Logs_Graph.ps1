@@ -4,6 +4,11 @@ Clear-Host
 #Istall the module. (You need admin on the machine.)
 Install-Module Microsoft.Graph -AllowClobber -Verbose -Force
 
+#Search for specific cmdlets
+get-command *-mgaudit*
+
+get-command *-mgdirectory*
+
 #Set the variable with the tenant ID
 $TenantID = "your Tenant ID"
 
@@ -34,3 +39,39 @@ Get-MgAuditLogDirectoryAudit -Filter "activitydisplayname eq 'Add device' and re
 #Why did the device creation fail?
 Get-MgAuditLogDirectoryAudit -Filter "activitydisplayname eq 'Add device' and result eq 'Failure'" | 
 Select-Object activitydisplayname,@{Name = 'Devicename'; Expression = {$_.targetresources.displayname}},result,resultreason
+
+#The last login
+Get-MgAuditLogSignIn -Top 1 | Format-List
+
+#About a user
+Get-MgAuditLogSignIn -Filter "UserPrincipalName eq 'name@example.com'"
+
+#The applications used
+$signin = Get-MgAuditLogSignIn -Top 1000
+$signin | Group-Object AppDisplayName -NoElement
+
+#Retrieval of the "Basic Auth" logins of the last 30 days
+$startdate = (get-date).adddays(-30)
+$sstartdate = $startdate.ToString("yyy-MM-dd")
+$basicsignin = Get-MgAuditLogSignIn -Filter "CreatedDateTime ge $sstartdate and ClientAppUsed ne 'Browser' and ClientAppUsed ne 'Mobile Apps and Desktop clients' and ClientAppUsed ne ''"
+$basicsignin | Group-Object ClientAppUsed -NoElement
+
+#Find Permissions
+Find-MgGraphCommand -Uri '/security/alerts'
+Find-MgGraphCommand -Command 'Get-MgSecurityAlert' | Select-Object Permissions
+
+#Create a new connection
+Disconnect-Graph
+Connect-MgGraph -Scopes SecurityEvents.Read.All, SecurityEvents.ReadWrite.All
+
+#Examine the Security Alerts
+Get-MgSecurityAlert
+
+#A bit 
+Get-MgSecurityAlert | Select-Object Title, Description, Category, Id | Out-GridView
+
+#More detailed info
+Get-MgSecurityAlert -AlertId e208bab9f9b02156e737c42d190e60d6bd5c49a7cc51a0432169973753f8503d
+
+#List content from an alert ID
+Get-MgSecurityAlert -AlertId e208bab9f9b02156e737c42d190e60d6bd5c49a7cc51a0432169973753f8503d | Select-Object *
