@@ -1,3 +1,4 @@
+#To make some space below
 Set-Location C:\
 Clear-Host
 
@@ -43,6 +44,20 @@ Get-MgAuditLogSignIn -Top 1 | Format-List
 
 #About a user
 Get-MgAuditLogSignIn -Filter "UserPrincipalName eq 'name@example.com'"
+
+$Logs = Get-MgAuditLogSignIn -Filter "startsWith(userDisplayName,'James')" -All
+$Logs | Group-Object -Property AppDisplayName | Select-Object -Property Name,Count | Sort-Object -Property Count -Descending
+
+#Filter logs based on the AppDisplayName
+$Logs = $Logs | Where-Object {$PSITEM.AppDisplayName -eq "Windows Sign In"}
+$Logs
+
+$Logs = Get-MgAuditLogSignIn -Filter "startsWith(userDisplayName,'James')" -All
+$Logs | Select-Object -Property AppDisplayName -Unique
+
+#Sort sign-in logs based on the CreatedDateTime
+$Logs = Get-MgAuditLogSignIn -Filter "startsWith(userDisplayName,'James')" -Top 10
+$Logs | Sort-Object -Property CreatedDateTime | Select-Object -Property AppDisplayName,CreatedDateTime,UserDisplayName
 
 #The applications used
 $signin = Get-MgAuditLogSignIn -Top 1000
