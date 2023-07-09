@@ -7,8 +7,6 @@ Install-Module Microsoft.Graph -AllowClobber -Verbose -Force
 #Search for specific cmdlets
 get-command *-mgaudit*
 
-get-command *-mgdirectory*
-
 #Set the variable with the tenant ID
 $TenantID = "your Tenant ID"
 
