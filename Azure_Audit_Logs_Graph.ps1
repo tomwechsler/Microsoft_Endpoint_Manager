@@ -73,6 +73,8 @@ $basicsignin | Group-Object ClientAppUsed -NoElement
 Find-MgGraphCommand -Uri '/security/alerts'
 Find-MgGraphCommand -Command 'Get-MgSecurityAlert' | Select-Object Permissions
 
+##Security Alerts##
+
 #Create a new connection
 Disconnect-Graph
 Connect-MgGraph -Scopes SecurityEvents.Read.All, SecurityEvents.ReadWrite.All
@@ -88,3 +90,69 @@ Get-MgSecurityAlert -AlertId e208bab9f9b02156e737c42d190e60d6bd5c49a7cc51a043216
 
 #List content from an alert ID
 Get-MgSecurityAlert -AlertId e208bab9f9b02156e737c42d190e60d6bd5c49a7cc51a0432169973753f8503d | Select-Object *
+
+##Last Sign In##
+
+#Create a new connection
+Disconnect-Graph
+
+#Connect to Microsoft Graph
+Connect-MgGraph -Scopes "AuditLog.Read.All", "User.Read.All"
+ 
+#Properties to Retrieve
+$Properties = @(
+    'Id','DisplayName','UserPrincipalName','UserType', 'AccountEnabled', 'SignInActivity'   
+)
+ 
+#Get All users along with the properties
+$AllUsers = Get-MgUser -All -Property $Properties
+ 
+$SigninLogs = @()
+ForEach ($User in $AllUsers)
+{
+    $SigninLogs += [PSCustomObject][ordered]@{
+            LoginName       = $User.UserPrincipalName
+            DisplayName     = $User.DisplayName
+            UserType        = $User.UserType
+            AccountEnabled  = $User.AccountEnabled
+            LastSignIn      = $User.SignInActivity.LastSignInDateTime
+    }
+}
+ 
+$SigninLogs
+
+#More details about the users
+$props = @(
+    # Basic metadata
+    'Id','DisplayName','Mail','UserPrincipalName','Department','JobTitle'
+    # Account Status
+    'AccountEnabled',
+    # Password last set
+    'LastPasswordChangeDateTime',
+    # Last logon
+    'SignInActivity',
+    # Assigned Licenses
+    'AssignedLicenses'
+)
+Get-MgUser -All -Property $props | Select-Object $props
+
+##Find out who the registered owner is##
+
+#Install the Excel Module
+Install-Module ImportExcel
+
+#Build the prereqs array
+$props = 'AccountEnabled','ApproximateLastSignInDateTime','Id','OperatingSystem','OperatingSystemVersion','TrustType'
+
+#Get all devices
+$mgDevices = Get-MgDevice -All -Property $props | Select-Object $props
+
+foreach ($mgDevice in $mgDevices) {
+    #Get the registered owner and associate to a UPN
+    $owner = Get-MgDeviceRegisteredOwner -DeviceId $mgDevice.Id | ForEach-Object {Get-MgUser -UserId $_.Id}
+
+    #Add the UPN to the device report
+    $mgDevice | Add-Member -MemberType NoteProperty -Name RegisterOwnerUPN -Value $owner.UserPrincipalName
+}
+
+$mgDevices | Export-Excel Devices.xlsx -TableName Devices -AutoSize
