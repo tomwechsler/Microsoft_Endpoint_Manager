@@ -121,4 +121,20 @@ IntuneOperationalLogs
 
 <img src="/Images/Example_6.png" alt="Example 6">
 
+7. Audit Actions
+
+```
+// Audit Actions
+IntuneAuditLogs
+| where TimeGenerated > ago(14d)
+| parse Properties with * ',"TargetDisplayNames":["' Object '"],' *
+| where Object != ""
+| extend User = todynamic(Properties).Actor.UPN
+| extend ['Azure Application'] = todynamic(Properties).Actor.ApplicationName
+| extend DeviceID = replace_regex(tostring(todynamic(Properties).TargetObjectIds), @'["\[\]]', "")
+| project OperationName, DeviceID, ['Task'] = Object, ['Azure Application'], User
+```
+
+<img src="/Images/Example_7.png" alt="Example 7">
+
 > Note: Thanks to @ugurkocde for the KQL foundation! 
