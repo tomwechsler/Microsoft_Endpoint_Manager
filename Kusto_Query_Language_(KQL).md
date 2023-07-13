@@ -137,4 +137,19 @@ IntuneAuditLogs
 
 <img src="/Images/Example_7.png" alt="Example 7">
 
+8. Visualize Windows Versions
+
+```
+// Visualize Windows Versions
+IntuneDevices
+| where OS contains "Windows"
+| where todatetime(LastContact) > ago(30d) 
+| summarize arg_max(TimeGenerated, *) by DeviceName
+| summarize Versionen=count() by OSVersion
+| sort by Versionen desc 
+| render piechart with ( title="Windows Build Versions")
+```
+
+<img src="/Images/Example_8.png" alt="Example 8">
+
 > Note: Thanks to @ugurkocde for the KQL foundation! 
