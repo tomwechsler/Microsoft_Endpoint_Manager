@@ -23,8 +23,8 @@ $compliancePolicies = $compliancePoliciesRequest.value
 $configurationPoliciesRequest = (Invoke-RestMethod -Headers $authHeaders -Uri "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations" -Method Get)
 $configurationPolicies = $ConfigurationPoliciesRequest.value
 
-#Export compliance policies (make that the export directory exists - C:\Temp\)
-$location = "C:\Temp\"
+#Export compliance policies (be sure that the export directory exists - C:\Temp\)
+$location = "C:\Temp"
 try{
     foreach($policy in $compliancePolicies){
       $filePath = "$($location)\Compliance - $($policy.displayName).json"
@@ -43,7 +43,7 @@ try{
       $policy | convertto-json -Depth 10 | out-file $filePath
       $Clean = Get-Content $filePath | Select-String -Pattern '"id":', '"createdDateTime":', '"modifiedDateTime":', '"version":', '"supportsScopeTags":' -notmatch
       $Clean | Out-File -FilePath $filePath
-      write-host "Exported policy: $($policy.displayName)" -ForegroundColor green
+      write-host "Exported profiles: $($policy.displayName)" -ForegroundColor green
     }  
   }
   catch{
