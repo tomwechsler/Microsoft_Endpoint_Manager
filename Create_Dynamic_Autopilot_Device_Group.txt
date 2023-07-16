@@ -1,3 +1,5 @@
+#Create a dynamic group in entra id
+
 Syntax:
 (device.devicePhysicalIDs -any (_ -contains "[ZTDId]"))
 
