@@ -1,4 +1,5 @@
-﻿Set-Location C:\
+﻿#The first two lines just set the location to the root of the C drive and clear the screen
+Set-Location C:\
 Clear-Host
 
 #Get a list of the UPN suffixes
