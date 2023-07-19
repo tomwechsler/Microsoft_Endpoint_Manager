@@ -16,7 +16,7 @@ Get-ADUser -Filter * | Sort-Object Name | Format-Table Name, UserPrincipalName
 
 #Change the UPN for all the AD users in the organization
 $LocalUsers = Get-ADUser -Filter {UserPrincipalName -like '*tomrocks.local'} -Properties UserPrincipalName -ResultSetSize $null
-$LocalUsers | foreach {$newUpn = $_.UserPrincipalName.Replace("tomrocks.local","tomrocks.ch"); $_ | Set-ADUser -UserPrincipalName $newUpn}
+$LocalUsers | ForEach-Object {$newUpn = $_.UserPrincipalName.Replace("tomrocks.local","tomrocks.ch"); $_ | Set-ADUser -UserPrincipalName $newUpn}
 
 #Confirm that the UPN is changed
 Get-ADUser -Filter * | Sort-Object Name | Format-Table Name, UserPrincipalName
