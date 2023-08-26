@@ -2,5 +2,5 @@
 
 ## You can restrict access with the Microsoft Graph
 
-<img src="/Images/Bitlocker_1" alt="Bitlocker 1">
+<img src="/Images/Bitlocker_1.png" alt="Bitlocker 1">
 
