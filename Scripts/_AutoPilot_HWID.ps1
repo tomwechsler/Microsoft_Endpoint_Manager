@@ -9,4 +9,4 @@ net use z: \\192.168.179.10\temp /user:tomsmem\administrator
 copy AutoPilotHWID.csv z:\AutoPilotHWID.csv
 
 #Direct upload to intune
-Get-WindowsAutoPilotInfo.ps1 /online
+Get-WindowsAutoPilotInfo.ps1 -online
