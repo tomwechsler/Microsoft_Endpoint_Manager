@@ -32,3 +32,20 @@ ComputerSystem
 SystemBootData
 | project Device, SystemStartTime, BootDuration, OSStart=EventLogStart, GPDuration, UpdateDuration
 | order by SystemStartTime desc
+
+
+#Authentication failures
+EventLog('Security')
+| where  EventID == 4673
+
+
+#ProcessModule(<processname>)
+ProcessModule('powershell')
+| summarize count() by ModuleName
+| order by count_ desc
+
+
+#Antimalware software status
+EPStatus
+| project Device, QuickScanAge=datetime_diff('day',now(),QuickScanEndTime)
+| summarize DeviceCount=count() by QuickScanAge
